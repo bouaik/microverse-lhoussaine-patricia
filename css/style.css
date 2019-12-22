@@ -1,3 +1,62 @@
 body{
     text-align: center;
+    background: linear-gradient(rgba(58, 58, 158, 0.8), rgba(58, 58, 158, 0.8)),
+                    url('../background.jpg');
+
+    background-size: cover;
+    background-position: center;
+
+    font-family: 'Girassol', cursive;
+}
+
+h1, p{
+    color: white;
+}
+
+h1{
+    font-size: 40px;
+}
+
+form {
+    border-radius: 10px;
+    background-color: rgba(27, 27, 50, 0.8);
+    padding: 50px;
+    display: block;
+    margin: auto;
+    width: 50%;
+
+}
+
+form div{
+    color: white;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+form div label{
+    font-size: 20px;
+}
+
+ .textfield{
+    border-radius: 3px;
+    border: none;
+    width: 100%;
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px 0;
+ }
+span{
+    font-size: 20px;
+}
+
+.button{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: #37af65;
+    color: white;
+    font-family: 'Girassol', cursive;
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
 }
